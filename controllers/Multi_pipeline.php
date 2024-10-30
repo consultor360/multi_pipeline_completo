@@ -32,6 +32,8 @@ class Multi_pipeline extends AdminController
         $this->load->model('Lead_model'); 
         $this->load->model('Api_model');
         $this->load->model('Multi_pipeline_model');
+        $this->lang->load('multi_pipeline', 'portuguese_br');
+        $this->lang->load('multi_pipeline', 'english');
     }
 
     /**
